@@ -1,0 +1,1 @@
+This contract extends the ERC20 contract from the OpenZeppelin library and adds the ability to burn tokens on transfer. The transfer and transferFrom functions have been overridden to calculate the number of tokens to burn based on the deflation rate and decrease the total supply accordingly. The Burned event is emitted when tokens are burned.
